@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF843A0C2181B9570021BBF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A0B2181B9570021BBF4 /* AppDelegate.m */; };
+		CF843A0F2181B9570021BBF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A0E2181B9570021BBF4 /* ViewController.m */; };
+		CF843A122181B9570021BBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF843A102181B9570021BBF4 /* Main.storyboard */; };
+		CF843A152181B9570021BBF4 /* WYPopVC_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF843A132181B9570021BBF4 /* WYPopVC_Demo.xcdatamodeld */; };
+		CF843A172181B95A0021BBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF843A162181B95A0021BBF4 /* Assets.xcassets */; };
+		CF843A1A2181B95A0021BBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF843A182181B95A0021BBF4 /* LaunchScreen.storyboard */; };
+		CF843A1D2181B95A0021BBF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A1C2181B95A0021BBF4 /* main.m */; };
+		CF843A272181B95A0021BBF4 /* WYPopVC_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A262181B95A0021BBF4 /* WYPopVC_DemoTests.m */; };
+		CF843A322181B95A0021BBF4 /* WYPopVC_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A312181B95A0021BBF4 /* WYPopVC_DemoUITests.m */; };
+		CF843A482181B9870021BBF4 /* WYPopActionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A402181B9870021BBF4 /* WYPopActionListView.m */; };
+		CF843A492181B9870021BBF4 /* WYPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A422181B9870021BBF4 /* WYPopViewController.m */; };
+		CF843A4A2181B9870021BBF4 /* WYPopActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A452181B9870021BBF4 /* WYPopActionView.m */; };
+		CF843A4B2181B9870021BBF4 /* WYPopListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A472181B9870021BBF4 /* WYPopListModel.m */; };
+		CF843A4E2181BA410021BBF4 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A4C2181BA410021BBF4 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF843A232181B95A0021BBF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8439FF2181B9570021BBF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF843A062181B9570021BBF4;
+			remoteInfo = WYPopVC_Demo;
+		};
+		CF843A2E2181B95A0021BBF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8439FF2181B9570021BBF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF843A062181B9570021BBF4;
+			remoteInfo = WYPopVC_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF843A072181B9570021BBF4 /* WYPopVC_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPopVC_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF843A0A2181B9570021BBF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF843A0B2181B9570021BBF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF843A0D2181B9570021BBF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF843A0E2181B9570021BBF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF843A112181B9570021BBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF843A142181B9570021BBF4 /* WYPopVC_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYPopVC_Demo.xcdatamodel; sourceTree = "<group>"; };
+		CF843A162181B95A0021BBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF843A192181B95A0021BBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF843A1B2181B95A0021BBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF843A1C2181B95A0021BBF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF843A222181B95A0021BBF4 /* WYPopVC_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPopVC_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF843A262181B95A0021BBF4 /* WYPopVC_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPopVC_DemoTests.m; sourceTree = "<group>"; };
+		CF843A282181B95A0021BBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF843A2D2181B95A0021BBF4 /* WYPopVC_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPopVC_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF843A312181B95A0021BBF4 /* WYPopVC_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPopVC_DemoUITests.m; sourceTree = "<group>"; };
+		CF843A332181B95A0021BBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF843A402181B9870021BBF4 /* WYPopActionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopActionListView.m; sourceTree = "<group>"; };
+		CF843A412181B9870021BBF4 /* WYPopActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopActionView.h; sourceTree = "<group>"; };
+		CF843A422181B9870021BBF4 /* WYPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopViewController.m; sourceTree = "<group>"; };
+		CF843A432181B9870021BBF4 /* WYPopListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopListModel.h; sourceTree = "<group>"; };
+		CF843A442181B9870021BBF4 /* WYPopActionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopActionListView.h; sourceTree = "<group>"; };
+		CF843A452181B9870021BBF4 /* WYPopActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopActionView.m; sourceTree = "<group>"; };
+		CF843A462181B9870021BBF4 /* WYPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopViewController.h; sourceTree = "<group>"; };
+		CF843A472181B9870021BBF4 /* WYPopListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopListModel.m; sourceTree = "<group>"; };
+		CF843A4C2181BA410021BBF4 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		CF843A4D2181BA410021BBF4 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF843A042181B9570021BBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF843A1F2181B95A0021BBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF843A2A2181B95A0021BBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF8439FE2181B9570021BBF4 = {
+			isa = PBXGroup;
+			children = (
+				CF843A092181B9570021BBF4 /* WYPopVC_Demo */,
+				CF843A252181B95A0021BBF4 /* WYPopVC_DemoTests */,
+				CF843A302181B95A0021BBF4 /* WYPopVC_DemoUITests */,
+				CF843A082181B9570021BBF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF843A082181B9570021BBF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF843A072181B9570021BBF4 /* WYPopVC_Demo.app */,
+				CF843A222181B95A0021BBF4 /* WYPopVC_DemoTests.xctest */,
+				CF843A2D2181B95A0021BBF4 /* WYPopVC_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF843A092181B9570021BBF4 /* WYPopVC_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CF843A3F2181B9870021BBF4 /* WYPopVC */,
+				CF843A0A2181B9570021BBF4 /* AppDelegate.h */,
+				CF843A0B2181B9570021BBF4 /* AppDelegate.m */,
+				CF843A0D2181B9570021BBF4 /* ViewController.h */,
+				CF843A0E2181B9570021BBF4 /* ViewController.m */,
+				CF843A4D2181BA410021BBF4 /* TestViewController.h */,
+				CF843A4C2181BA410021BBF4 /* TestViewController.m */,
+				CF843A102181B9570021BBF4 /* Main.storyboard */,
+				CF843A162181B95A0021BBF4 /* Assets.xcassets */,
+				CF843A182181B95A0021BBF4 /* LaunchScreen.storyboard */,
+				CF843A1B2181B95A0021BBF4 /* Info.plist */,
+				CF843A1C2181B95A0021BBF4 /* main.m */,
+				CF843A132181B9570021BBF4 /* WYPopVC_Demo.xcdatamodeld */,
+			);
+			path = WYPopVC_Demo;
+			sourceTree = "<group>";
+		};
+		CF843A252181B95A0021BBF4 /* WYPopVC_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF843A262181B95A0021BBF4 /* WYPopVC_DemoTests.m */,
+				CF843A282181B95A0021BBF4 /* Info.plist */,
+			);
+			path = WYPopVC_DemoTests;
+			sourceTree = "<group>";
+		};
+		CF843A302181B95A0021BBF4 /* WYPopVC_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF843A312181B95A0021BBF4 /* WYPopVC_DemoUITests.m */,
+				CF843A332181B95A0021BBF4 /* Info.plist */,
+			);
+			path = WYPopVC_DemoUITests;
+			sourceTree = "<group>";
+		};
+		CF843A3F2181B9870021BBF4 /* WYPopVC */ = {
+			isa = PBXGroup;
+			children = (
+				CF843A442181B9870021BBF4 /* WYPopActionListView.h */,
+				CF843A402181B9870021BBF4 /* WYPopActionListView.m */,
+				CF843A412181B9870021BBF4 /* WYPopActionView.h */,
+				CF843A452181B9870021BBF4 /* WYPopActionView.m */,
+				CF843A432181B9870021BBF4 /* WYPopListModel.h */,
+				CF843A472181B9870021BBF4 /* WYPopListModel.m */,
+				CF843A462181B9870021BBF4 /* WYPopViewController.h */,
+				CF843A422181B9870021BBF4 /* WYPopViewController.m */,
+			);
+			path = WYPopVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF843A062181B9570021BBF4 /* WYPopVC_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF843A362181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_Demo" */;
+			buildPhases = (
+				CF843A032181B9570021BBF4 /* Sources */,
+				CF843A042181B9570021BBF4 /* Frameworks */,
+				CF843A052181B9570021BBF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPopVC_Demo;
+			productName = WYPopVC_Demo;
+			productReference = CF843A072181B9570021BBF4 /* WYPopVC_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF843A212181B95A0021BBF4 /* WYPopVC_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF843A392181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_DemoTests" */;
+			buildPhases = (
+				CF843A1E2181B95A0021BBF4 /* Sources */,
+				CF843A1F2181B95A0021BBF4 /* Frameworks */,
+				CF843A202181B95A0021BBF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF843A242181B95A0021BBF4 /* PBXTargetDependency */,
+			);
+			name = WYPopVC_DemoTests;
+			productName = WYPopVC_DemoTests;
+			productReference = CF843A222181B95A0021BBF4 /* WYPopVC_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF843A2C2181B95A0021BBF4 /* WYPopVC_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF843A3C2181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_DemoUITests" */;
+			buildPhases = (
+				CF843A292181B95A0021BBF4 /* Sources */,
+				CF843A2A2181B95A0021BBF4 /* Frameworks */,
+				CF843A2B2181B95A0021BBF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF843A2F2181B95A0021BBF4 /* PBXTargetDependency */,
+			);
+			name = WYPopVC_DemoUITests;
+			productName = WYPopVC_DemoUITests;
+			productReference = CF843A2D2181B95A0021BBF4 /* WYPopVC_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8439FF2181B9570021BBF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "dkt网络有限公司";
+				TargetAttributes = {
+					CF843A062181B9570021BBF4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CF843A212181B95A0021BBF4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CF843A062181B9570021BBF4;
+					};
+					CF843A2C2181B95A0021BBF4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CF843A062181B9570021BBF4;
+					};
+				};
+			};
+			buildConfigurationList = CF843A022181B9570021BBF4 /* Build configuration list for PBXProject "WYPopVC_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8439FE2181B9570021BBF4;
+			productRefGroup = CF843A082181B9570021BBF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF843A062181B9570021BBF4 /* WYPopVC_Demo */,
+				CF843A212181B95A0021BBF4 /* WYPopVC_DemoTests */,
+				CF843A2C2181B95A0021BBF4 /* WYPopVC_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF843A052181B9570021BBF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF843A1A2181B95A0021BBF4 /* LaunchScreen.storyboard in Resources */,
+				CF843A172181B95A0021BBF4 /* Assets.xcassets in Resources */,
+				CF843A122181B9570021BBF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF843A202181B95A0021BBF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF843A2B2181B95A0021BBF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF843A032181B9570021BBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF843A492181B9870021BBF4 /* WYPopViewController.m in Sources */,
+				CF843A482181B9870021BBF4 /* WYPopActionListView.m in Sources */,
+				CF843A152181B9570021BBF4 /* WYPopVC_Demo.xcdatamodeld in Sources */,
+				CF843A0F2181B9570021BBF4 /* ViewController.m in Sources */,
+				CF843A1D2181B95A0021BBF4 /* main.m in Sources */,
+				CF843A4A2181B9870021BBF4 /* WYPopActionView.m in Sources */,
+				CF843A4E2181BA410021BBF4 /* TestViewController.m in Sources */,
+				CF843A0C2181B9570021BBF4 /* AppDelegate.m in Sources */,
+				CF843A4B2181B9870021BBF4 /* WYPopListModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF843A1E2181B95A0021BBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF843A272181B95A0021BBF4 /* WYPopVC_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF843A292181B95A0021BBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF843A322181B95A0021BBF4 /* WYPopVC_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF843A242181B95A0021BBF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF843A062181B9570021BBF4 /* WYPopVC_Demo */;
+			targetProxy = CF843A232181B95A0021BBF4 /* PBXContainerItemProxy */;
+		};
+		CF843A2F2181B95A0021BBF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF843A062181B9570021BBF4 /* WYPopVC_Demo */;
+			targetProxy = CF843A2E2181B95A0021BBF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF843A102181B9570021BBF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF843A112181B9570021BBF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF843A182181B95A0021BBF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF843A192181B95A0021BBF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF843A342181B95A0021BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF843A352181B95A0021BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF843A372181B95A0021BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPopVC_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dkt.WYPopVC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF843A382181B95A0021BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPopVC_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dkt.WYPopVC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF843A3A2181B95A0021BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPopVC_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dkt.WYPopVC-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPopVC_Demo.app/WYPopVC_Demo";
+			};
+			name = Debug;
+		};
+		CF843A3B2181B95A0021BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPopVC_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dkt.WYPopVC-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPopVC_Demo.app/WYPopVC_Demo";
+			};
+			name = Release;
+		};
+		CF843A3D2181B95A0021BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPopVC_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dkt.WYPopVC-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYPopVC_Demo;
+			};
+			name = Debug;
+		};
+		CF843A3E2181B95A0021BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPopVC_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dkt.WYPopVC-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYPopVC_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF843A022181B9570021BBF4 /* Build configuration list for PBXProject "WYPopVC_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF843A342181B95A0021BBF4 /* Debug */,
+				CF843A352181B95A0021BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF843A362181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF843A372181B95A0021BBF4 /* Debug */,
+				CF843A382181B95A0021BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF843A392181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF843A3A2181B95A0021BBF4 /* Debug */,
+				CF843A3B2181B95A0021BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF843A3C2181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF843A3D2181B95A0021BBF4 /* Debug */,
+				CF843A3E2181B95A0021BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF843A132181B9570021BBF4 /* WYPopVC_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF843A142181B9570021BBF4 /* WYPopVC_Demo.xcdatamodel */,
+			);
+			currentVersion = CF843A142181B9570021BBF4 /* WYPopVC_Demo.xcdatamodel */;
+			path = WYPopVC_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF8439FF2181B9570021BBF4 /* Project object */;
+}
