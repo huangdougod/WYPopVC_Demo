@@ -1,0 +1,3 @@
+# WYPopVC_Demo
+一个基于模态viewcontroller的视图弹窗
+以前做视图弹窗都是在当前的window层上直接添加一个view，今天看到viewcontroller的模态(Modal)显示，就做了一个弹窗的小demo，以供有需求的小伙伴们参考。。
