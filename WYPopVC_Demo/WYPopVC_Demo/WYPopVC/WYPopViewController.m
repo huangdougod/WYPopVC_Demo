@@ -60,16 +60,7 @@
 }
 #pragma mark ----private method
 - (void)clickToColseWithBtn{
-    __weak typeof(self) weakSelf = self;
-    [UIView animateWithDuration:0.35 animations:^{
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        [strongSelf.pushListView setFrame:CGRectMake(0, UIScreenHeight,UIScreenWidth, 0)];
-        strongSelf.view.alpha = 0;
-    } completion:^(BOOL finished) {
-        if (finished) {
-            [weakSelf dismissViewControllerAnimated:NO completion:nil];
-        }
-    }];
+    [self clickToClose];
 }
 - (void)clickToClose{
     __weak typeof(self) weakSelf = self;
