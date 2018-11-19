@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C47923527567365A284C6AF /* libPods-WYPopVC_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6EB0AF328BB2203BB86A3A /* libPods-WYPopVC_Demo.a */; };
+		CF44DCBE21A2984D00A535BE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44DCBD21A2984D00A535BE /* HomeViewController.m */; };
+		CF44DCC121A29F7A00A535BE /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44DCC021A29F7A00A535BE /* HomeTableViewCell.m */; };
+		CF44DCC521A2A72E00A535BE /* WYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44DCC321A2A72D00A535BE /* WYAlertView.m */; };
+		CF44DCC821A2AA3D00A535BE /* UIColor+Until.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44DCC721A2AA3C00A535BE /* UIColor+Until.m */; };
 		CF843A0C2181B9570021BBF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A0B2181B9570021BBF4 /* AppDelegate.m */; };
 		CF843A0F2181B9570021BBF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF843A0E2181B9570021BBF4 /* ViewController.m */; };
 		CF843A122181B9570021BBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF843A102181B9570021BBF4 /* Main.storyboard */; };
@@ -41,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C6EB0AF328BB2203BB86A3A /* libPods-WYPopVC_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYPopVC_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD9B9114AD829D31AECDF1F /* Pods-WYPopVC_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYPopVC_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYPopVC_Demo/Pods-WYPopVC_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		CF44DCBC21A2984D00A535BE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CF44DCBD21A2984D00A535BE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CF44DCBF21A29F7A00A535BE /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		CF44DCC021A29F7A00A535BE /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		CF44DCC321A2A72D00A535BE /* WYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAlertView.m; sourceTree = "<group>"; };
+		CF44DCC421A2A72D00A535BE /* WYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAlertView.h; sourceTree = "<group>"; };
+		CF44DCC621A2AA3C00A535BE /* UIColor+Until.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Until.h"; sourceTree = "<group>"; };
+		CF44DCC721A2AA3C00A535BE /* UIColor+Until.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Until.m"; sourceTree = "<group>"; };
 		CF843A072181B9570021BBF4 /* WYPopVC_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPopVC_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF843A0A2181B9570021BBF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF843A0B2181B9570021BBF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +83,7 @@
 		CF843A472181B9870021BBF4 /* WYPopListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopListModel.m; sourceTree = "<group>"; };
 		CF843A4C2181BA410021BBF4 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		CF843A4D2181BA410021BBF4 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E90832C4EC90D975D2DF4EA0 /* Pods-WYPopVC_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYPopVC_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYPopVC_Demo/Pods-WYPopVC_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C47923527567365A284C6AF /* libPods-WYPopVC_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F083CB7905932A07E654CB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E90832C4EC90D975D2DF4EA0 /* Pods-WYPopVC_Demo.debug.xcconfig */,
+				CCD9B9114AD829D31AECDF1F /* Pods-WYPopVC_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3FD8B7189E9464BCA48F303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6EB0AF328BB2203BB86A3A /* libPods-WYPopVC_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF44DCC221A2A72D00A535BE /* WYAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CF44DCC621A2AA3C00A535BE /* UIColor+Until.h */,
+				CF44DCC721A2AA3C00A535BE /* UIColor+Until.m */,
+				CF44DCC321A2A72D00A535BE /* WYAlertView.m */,
+				CF44DCC421A2A72D00A535BE /* WYAlertView.h */,
+			);
+			path = WYAlertView;
+			sourceTree = "<group>";
+		};
 		CF8439FE2181B9570021BBF4 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +147,8 @@
 				CF843A252181B95A0021BBF4 /* WYPopVC_DemoTests */,
 				CF843A302181B95A0021BBF4 /* WYPopVC_DemoUITests */,
 				CF843A082181B9570021BBF4 /* Products */,
+				0F083CB7905932A07E654CB4 /* Pods */,
+				B3FD8B7189E9464BCA48F303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,11 +165,16 @@
 		CF843A092181B9570021BBF4 /* WYPopVC_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CF44DCC221A2A72D00A535BE /* WYAlertView */,
 				CF843A3F2181B9870021BBF4 /* WYPopVC */,
 				CF843A0A2181B9570021BBF4 /* AppDelegate.h */,
 				CF843A0B2181B9570021BBF4 /* AppDelegate.m */,
 				CF843A0D2181B9570021BBF4 /* ViewController.h */,
 				CF843A0E2181B9570021BBF4 /* ViewController.m */,
+				CF44DCBC21A2984D00A535BE /* HomeViewController.h */,
+				CF44DCBD21A2984D00A535BE /* HomeViewController.m */,
+				CF44DCBF21A29F7A00A535BE /* HomeTableViewCell.h */,
+				CF44DCC021A29F7A00A535BE /* HomeTableViewCell.m */,
 				CF843A4D2181BA410021BBF4 /* TestViewController.h */,
 				CF843A4C2181BA410021BBF4 /* TestViewController.m */,
 				CF843A102181B9570021BBF4 /* Main.storyboard */,
@@ -175,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF843A362181B95A0021BBF4 /* Build configuration list for PBXNativeTarget "WYPopVC_Demo" */;
 			buildPhases = (
+				27FBF7920A6CD6A14D2FC341 /* [CP] Check Pods Manifest.lock */,
 				CF843A032181B9570021BBF4 /* Sources */,
 				CF843A042181B9570021BBF4 /* Frameworks */,
 				CF843A052181B9570021BBF4 /* Resources */,
@@ -293,6 +346,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27FBF7920A6CD6A14D2FC341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYPopVC_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF843A032181B9570021BBF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -301,11 +375,15 @@
 				CF843A492181B9870021BBF4 /* WYPopViewController.m in Sources */,
 				CF843A482181B9870021BBF4 /* WYPopActionListView.m in Sources */,
 				CF843A152181B9570021BBF4 /* WYPopVC_Demo.xcdatamodeld in Sources */,
+				CF44DCC521A2A72E00A535BE /* WYAlertView.m in Sources */,
+				CF44DCC121A29F7A00A535BE /* HomeTableViewCell.m in Sources */,
+				CF44DCBE21A2984D00A535BE /* HomeViewController.m in Sources */,
 				CF843A0F2181B9570021BBF4 /* ViewController.m in Sources */,
 				CF843A1D2181B95A0021BBF4 /* main.m in Sources */,
 				CF843A4A2181B9870021BBF4 /* WYPopActionView.m in Sources */,
 				CF843A4E2181BA410021BBF4 /* TestViewController.m in Sources */,
 				CF843A0C2181B9570021BBF4 /* AppDelegate.m in Sources */,
+				CF44DCC821A2AA3D00A535BE /* UIColor+Until.m in Sources */,
 				CF843A4B2181B9870021BBF4 /* WYPopListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +553,7 @@
 		};
 		CF843A372181B95A0021BBF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90832C4EC90D975D2DF4EA0 /* Pods-WYPopVC_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +570,7 @@
 		};
 		CF843A382181B95A0021BBF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD9B9114AD829D31AECDF1F /* Pods-WYPopVC_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

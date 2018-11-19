@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TestViewController.h"
+#import "HomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = [[UIWindow alloc]initWithFrame:UIScreen.mainScreen.bounds];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[TestViewController alloc]init]];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[HomeViewController alloc]init]];
     _window.rootViewController = nav ;
     [_window makeKeyAndVisible];
     return YES;
